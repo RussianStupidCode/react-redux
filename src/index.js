@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { faker } from "@faker-js/faker";
 import ReactDOM from "react-dom";
 import {
@@ -25,7 +25,7 @@ const App = (params) => {
 
   useEffect(() => {
     dispatch(loadTasks());
-  }, []);
+  }, [dispatch]);
 
   const changeTitle = (taskId) => {
     dispatch(titleChanged(taskId));
