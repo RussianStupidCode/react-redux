@@ -1,6 +1,7 @@
 {
-  "name": "react-redux-app",
+  "name": "react-redux",
   "version": "0.1.0",
+  "homepage": "https://russianstupidcode.github.io/react-redux",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.7.1",
